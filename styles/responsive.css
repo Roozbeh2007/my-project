@@ -1,0 +1,15 @@
+/* Section Main */
+/* Section Box */
+@media (max-width:992px) {
+	.btn-download {
+		width: 100%;
+	}
+}
+
+@media (min-width:992px) {
+	.btn-download {
+		width: 40%;
+	}
+}
+/* End Section Box */
+/* End Section Main */

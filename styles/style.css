@@ -1,0 +1,83 @@
+:root{
+    --bgColor:#f8fafa;
+    --navText:rgb(88, 88, 88);
+    --bgBox: #DCEAFC;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bgColor);
+}
+
+/* Section Menu */
+nav {
+	background-color: white;
+}
+
+.nav-item a {
+	color: var(--navText);
+	transition: 0.3s;
+}
+
+.nav-item a:hover {
+	color: rgb(0, 0, 0);
+}
+/* End Section Menu */
+
+/* Section Main */
+/* Section Box */
+.movie-box {
+	background-color: white;
+	margin: 0 auto;
+	width: 95%;
+	height: auto;
+}
+
+.pages-button {
+	background-color: white;
+}
+
+.btn-pages-active {
+	scale: 0.95;
+}
+
+.btn-pages {
+	scale: 0.95;
+	color: var(--navText);
+	border-color: #E5F1FE;
+	background-color: #E5F1FE;
+}
+
+.btn-pages:hover {
+	color: var(--navText);
+	border-color: var(--bgBox);
+	background-color: var(--bgBox);
+}
+/* End Section Box */
+
+/* Section Aside */
+.new-movies {
+	background-color: white;
+}
+
+.genre {
+	margin-top: 30px;
+	background-color: white;
+}
+
+.genre-box {
+	background-color: var(--bgBox);
+	transition: 0.2s;
+}
+
+.genre-box:hover {
+	background-color: #0D6EFD;
+	color: white;
+}
+/* End Section Aside */
+/* End Section Main */
