@@ -62,6 +62,7 @@ nav {
 
 /* Section Aside */
 .new-movies {
+	height: auto;
 	background-color: white;
 }
 
