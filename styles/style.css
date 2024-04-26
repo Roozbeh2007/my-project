@@ -25,7 +25,11 @@ nav {
 }
 
 .nav-item a:hover {
-	color: rgb(0, 0, 0);
+	color: black;
+}
+
+.icons a{
+	color: black;
 }
 /* End Section Menu */
 
